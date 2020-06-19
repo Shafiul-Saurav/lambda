@@ -1,0 +1,595 @@
+/*custom small devices(portrait phones, 256px)*/
+@media (max-width: 256px){
+/*menu_section start*/
+.special_box {
+    top: 161px;
+}
+/*menu_section end*/
+}
+/*custom small devices(portrait phones, 394px to 257px)*/
+@media (max-width: 394px) and (min-width: 257px){
+/*menu_section start*/
+.special_box {
+    top: 140px;
+}
+/*menu_section end*/
+}
+/*custom small devices(portrait phones, 575.98px to 395px)*/
+@media (max-width: 575.98px) and (min-width: 395px){
+/*menu_section start*/
+.special_box {
+    top: 120px;
+}
+/*menu_section end*/
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+h2{
+    font-size: 22px;  
+}
+h3 {
+    font-size: 16px;
+}
+p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+/*header start*/
+/*navbar start*/
+#mainNav {
+  background-color: #191919;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+/*navbar end*/
+/*nav start*/
+.logo {
+    width: 70%;
+}
+.navbar-nav li a:hover {} .nav-item a:before {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+.nav-item .active::after {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+.navbar-toggler {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bar_icon i{
+  font-size: 26px;
+}
+/*nav start*/
+/*header end*/
+.support{
+  background-color: #191919;
+  height: 72px;
+}
+/*carousel start*/
+.slider_content {
+    padding-bottom: 20px;
+}
+.slider_content h1 {
+    display: none;
+}
+.slider_content img {
+    display: none;
+}
+.btn-custom {
+    font-size: 14px;
+    padding: 3px 3px;
+}
+/*carousel end*/
+/*about start*/
+.about{
+    padding: 40px 0;
+}
+.text_area img{
+    width: 150px;
+}
+.sign {
+    width: 24%;
+}
+.img_area {
+    width: 75%;
+    margin: 0 auto;
+}
+/*about end*/
+/*ingredients start*/
+.ingredients{
+    padding: 40px 0;
+}
+.bg-area{
+    padding: 30px 30px;
+}
+.bg-area p{
+    margin: 10px 0;
+}
+.img_area {
+    width: 75%;
+    margin: 0 auto;
+}
+/*ingredients end*/
+/*menu_section start*/
+.menu_section{
+    padding: 40px 0;
+}
+.item h3 {
+    text-align: left;
+}
+.item p {
+    text-align: center;
+    margin: 0;
+}
+/*menu_section end*/
+/*review end*/
+.review{
+    padding: 40px 0;
+}
+.bg-area1{
+    padding: 30px 30px;
+}
+.large {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 20px;
+}
+.comma {
+    top: 85px;
+    width: 4%;
+    left: 40px;
+}
+/*review end*/
+/*reservations start*/
+.reservations{
+    padding: 40px 0;
+}
+.food_item{
+    margin-bottom: 20px;
+}
+.contact_h{
+    padding-top: 40px;
+}
+.btn-custom1 {
+    margin-top: 20px;
+    width: 100%;
+}
+/*reservations end*/
+/*footer start*/
+footer{
+   padding: 40px 0 0px 0;
+}
+.footer_area {
+    margin-bottom: 40px;
+}
+.cards {
+    margin: 10px 10px 0 0;
+}
+.cards:last-child{
+    margin: 10px 0 0 0;
+}
+.social_one{
+    margin: 10px 10px 0 0;
+}
+.social_one:last-child{
+    margin: 10px 0 0 0;
+}
+/*footer end*/
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+h2{
+    font-size: 26px;  
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    margin: 10px 0;
+    line-height: 20px;
+}
+/*header start*/
+/*navbar start*/
+#mainNav {
+  background-color: #191919;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+/*navbar end*/
+/*nav start*/
+.logo {
+    width: 70%;
+}
+.navbar-nav li a:hover {} .nav-item a:before {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+.nav-item .active::after {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+.navbar-toggler {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bar_icon i{
+  font-size: 26px;
+}
+/*nav start*/
+/*header end*/
+/*support start*/
+.support{
+  background-color: #191919;
+  height: 72px;
+}
+/*support end*/
+/*carousel start*/
+.slider_content {
+    padding-bottom: 30px;
+}
+.slider_content h1 {
+    font-size: 30px;
+}
+.slider_content img {
+    margin: 5px 0;
+    width: 120px;
+}
+.btn-custom {
+    font-size: 16px;
+    padding: 8px 10px;
+}
+/*carousel end*/
+/*about start*/
+.about{
+    padding: 40px 0;
+}
+.text_area img{
+    width: 150px;
+}
+.sign {
+    width: 24%;
+}
+.img_area {
+    width: 75%;
+    margin: 0 auto;
+}
+/*about end*/
+/*ingredients start*/
+.ingredients{
+    padding: 40px 0;
+}
+.bg-area{
+    padding: 30px 30px;
+}
+.bg-area p{
+    margin: 10px 0;
+}
+.img_area {
+    width: 75%;
+    margin: 0 auto;
+}
+/*ingredients end*/
+/*menu_section start*/
+.menu_section{
+    padding: 40px 0;
+}
+.item h3 {
+    text-align: left;
+}
+.item p {
+    text-align: center;
+    margin: 0;
+}
+.special_box {
+    top: 127px;
+}
+/*menu_section end*/
+/*review end*/
+.review{
+    padding: 40px 0;
+}
+.large {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px 20px;
+}
+.comma {
+    top: 128px;
+    width: 4%;
+    left: 80px;
+}
+/*review end*/
+/*reservations start*/
+.reservations{
+    padding: 40px 0;
+}
+.contact_h{
+    padding-top: 40px;
+}
+.btn-custom1 {
+    margin-top: 20px;
+    width: 100%;
+}
+/*reservations end*/
+/*footer start*/
+footer{
+   padding: 40px 0 0px 0;
+}
+.footer_area {
+    margin-bottom: 40px;
+}
+.cards {
+    margin: 10px 10px 0 0;
+}
+.cards:last-child{
+    margin: 10px 0 0 0;
+}
+.social_one{
+    margin: 10px 10px 0 0;
+}
+.social_one:last-child{
+    margin: 10px 0 0 0;
+}
+/*footer end*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+h2{
+    font-size: 30px;  
+}
+h3 {
+    font-size: 19px;
+}
+p {
+    margin: 10px 0;
+    line-height: 20px;
+}
+/*header start*/
+/*navbar start*/
+#mainNav {
+  background-color: #191919;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+/*navbar end*/
+/*nav start*/
+.logo {
+    width: 80%;
+}
+.navbar-nav li a:hover {} .nav-item a:before {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+.nav-item .active::after {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+}
+/*nav start*/
+/*header end*/
+/*support start*/
+.support{
+  background-color: #191919;
+  height: 86px;
+}
+/*support end*/
+/*carousel start*/
+.slider_content {
+    padding-bottom: 30px;
+}
+.slider_content h1 {
+    font-size: 44px;
+}
+.slider_content img {
+    margin: 10px 0;
+    width: 150px;
+}
+.btn-custom {
+    font-size: 16px;
+    padding: 8px 20px;
+}
+/*carousel end*/
+/*about start*/
+.about{
+    padding: 70px 0;
+}
+.text_area img{
+    width: 150px;
+}
+.sign {
+    width: 24%;
+}
+.img_area {
+    width: 75%;
+    margin: 0 auto;
+}
+/*about end*/
+/*ingredients start*/
+.ingredients{
+    padding: 70px 0;
+}
+.bg-area{
+    padding: 50px 47px;
+}
+.bg-area p{
+    margin: 10px 0;
+}
+/*ingredients end*/
+/*menu_section start*/
+.menu_section{
+    padding: 70px 0;
+}
+.item h3 {
+    text-align: left;
+}
+.item p {
+    text-align: center;
+    margin: 0;
+}
+.special_box {
+    top: 133px;
+}
+/*menu_section end*/
+/*review start*/
+.review{
+    padding: 70px 0;
+}
+.large {
+    font-size: 18px;
+    line-height: 26px;
+}
+.comma {
+    top: 135px;
+    width: 5%;
+}
+/*review end*/
+/*reservations start*/
+.reservations{
+    padding: 70px 0;
+}
+.contact_h{
+    padding-top: 70px;
+}
+.btn-custom1 {
+    margin-top: 20px;
+}
+/*reservations end*/
+/*footer start*/
+footer{
+   padding: 70px 0 35px 0;
+}
+.footer_area {
+    margin-bottom: 35px;
+}
+/*footer end*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+h2{
+    font-size: 32px;  
+}
+h3 {
+    font-size: 19px;
+}
+p {
+    margin: 10px 0;
+    line-height: 20px;
+}
+/*header start*/
+/*navbar start*/
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 0px 15px 0px 15px;
+}
+/*navbar end*/
+/*header end*/
+/*carousel start*/
+.slider_content {
+    padding-bottom: 60px;
+}
+.slider_content h1 {
+    font-size: 65px;
+}
+.slider_content img {
+    margin: 10px 0;
+}
+.btn-custom {
+    padding: 10px 30px;
+    font-size: 17px;
+}
+/*carousel end*/
+/*about start*/
+.about{
+    padding: 90px 0;
+}
+.sign {
+    width: 33%;
+}
+/*about end*/
+/*ingredients start*/
+.ingredients{
+    padding: 90px 0;
+}
+.bg-area{
+    padding: 60px 47px;
+}
+.bg-area p{
+    margin: 10px 0;
+}
+/*ingredients end*/
+/*menu_section start*/
+.menu_section{
+    padding: 90px 0;
+}
+.item-area {
+    margin-bottom: 30px;
+}
+.special_box {
+    top: 147px;
+}
+/*menu_section end*/
+/*review start*/
+.review{
+    padding: 90px 0;
+}
+.large {
+    font-size: 20px;
+    line-height: 30px;
+}
+.comma {
+    top: 135px;
+}
+/*review end*/
+/*reservations start*/
+.reservations{
+    padding: 90px 0;
+}
+.first{
+    margin: 15px 0;
+}
+.second{
+    display: none;
+}
+.btn-custom1 {
+    margin-top: 20px;
+}
+/*reservations end*/
+/*footer start*/
+footer{
+    padding: 90px 0;
+}
+.cards {
+    margin: 30px 10px 0 0;
+}
+.cards:last-child{
+    margin: 30px 0 0 0;
+}
+.social_one{
+    margin: 30px 10px 0 0;
+}
+.social_one:last-child{
+    margin: 30px 0 0 0;
+}
+/*footer start*/
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
